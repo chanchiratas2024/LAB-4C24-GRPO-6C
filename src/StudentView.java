@@ -1,5 +1,5 @@
 public class StudentView {
-    public static void main(String[] args) {
-        System.out.println("Hola, soy StudentView directo ,may ✨");
+    public void display(String mensaje) {
+        System.out.println("Mostrando: " + mensaje);
     }
 }
