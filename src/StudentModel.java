@@ -10,4 +10,12 @@ public class StudentModel {
     public void printData() {
         System.out.println("Nombre: " + nombre + ", Edad: " + edad);
     }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public int getEdad() {
+        return edad;
+    }
 }
